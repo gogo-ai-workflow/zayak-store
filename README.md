@@ -2,7 +2,11 @@
 
 نسخة تجريبية من متجر زيّك: لبس وطباعة على الطلب في مصر.
 
-- الصفحة كلها ملف واحد: `index.html` (HTML + CSS + JavaScript من غير framework).
+**الموقع:** https://gogo-ai-workflow.github.io/zayak-store/
+
+- الصفحة ملف واحد: `index.html` (HTML + CSS + JavaScript من غير framework).
+- الـ 3D معمول بـ Three.js r128 (`vendor/three.min.js`، رخصة MIT). لو المتصفح مافيهوش WebGL بيرجع للعرض المسطح.
+- فاتح بشكل افتراضي، وفيه زرار للوضع الغامق.
 - الأسعار والمخزون أرقام تجريبية، والطلبات بتتحفظ على جهاز اللي بيجرّب بس (localStorage).
 - الصفحات: `#home` الرئيسية، `#design` المصمم، `#admin` لوحة الأدمن التجريبية.
 
